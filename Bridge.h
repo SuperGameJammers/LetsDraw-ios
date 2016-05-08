@@ -3,3 +3,7 @@
 //
 
 #import "DrawView_Smoothing.h"
+#import "DrawView.h"
+#import "DrawView_ErasingStrokeParts.h"
+#import "Stroke.h"
+#import "DrawView_ErasingStrokes.h"

@@ -22,6 +22,9 @@
 		E2E81D891CDECAB30049E652 /* funcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E81D881CDECAB30049E652 /* funcs.swift */; };
 		E2E81D8B1CDECE5F0049E652 /* drawCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E81D8A1CDECE5F0049E652 /* drawCell.swift */; };
 		E2E81D8D1CDED7C40049E652 /* MainMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E81D8C1CDED7C40049E652 /* MainMenuController.swift */; };
+		E2E81D901CDF5ED20049E652 /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E81D8F1CDF5ED20049E652 /* Stroke.m */; };
+		E2E81D951CDF60150049E652 /* DrawView_ErasingStrokes.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E81D921CDF60150049E652 /* DrawView_ErasingStrokes.m */; };
+		E2E81D961CDF60150049E652 /* DrawView_ErasingStrokeParts.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E81D941CDF60150049E652 /* DrawView_ErasingStrokeParts.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,13 @@
 		E2E81D881CDECAB30049E652 /* funcs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = funcs.swift; sourceTree = "<group>"; };
 		E2E81D8A1CDECE5F0049E652 /* drawCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = drawCell.swift; sourceTree = "<group>"; tabWidth = 5; };
 		E2E81D8C1CDED7C40049E652 /* MainMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuController.swift; sourceTree = "<group>"; };
+		E2E81D8E1CDF5ED20049E652 /* Stroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
+		E2E81D8F1CDF5ED20049E652 /* Stroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
+		E2E81D911CDF60150049E652 /* DrawView_ErasingStrokes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView_ErasingStrokes.h; sourceTree = "<group>"; };
+		E2E81D921CDF60150049E652 /* DrawView_ErasingStrokes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView_ErasingStrokes.m; sourceTree = "<group>"; };
+		E2E81D931CDF60150049E652 /* DrawView_ErasingStrokeParts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView_ErasingStrokeParts.h; sourceTree = "<group>"; };
+		E2E81D941CDF60150049E652 /* DrawView_ErasingStrokeParts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView_ErasingStrokeParts.m; sourceTree = "<group>"; };
+		E2E81D971CDF619B0049E652 /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +135,13 @@
 				E26AA0131CDEA6350088386B /* swiftDrawWrapper.swift */,
 				E2E81D8A1CDECE5F0049E652 /* drawCell.swift */,
 				E2E81D8C1CDED7C40049E652 /* MainMenuController.swift */,
+				E2E81D911CDF60150049E652 /* DrawView_ErasingStrokes.h */,
+				E2E81D971CDF619B0049E652 /* DrawView.h */,
+				E2E81D921CDF60150049E652 /* DrawView_ErasingStrokes.m */,
+				E2E81D931CDF60150049E652 /* DrawView_ErasingStrokeParts.h */,
+				E2E81D941CDF60150049E652 /* DrawView_ErasingStrokeParts.m */,
+				E2E81D8E1CDF5ED20049E652 /* Stroke.h */,
+				E2E81D8F1CDF5ED20049E652 /* Stroke.m */,
 				E2E81D881CDECAB30049E652 /* funcs.swift */,
 				E2E81D861CDEBCBB0049E652 /* drawViewController.swift */,
 				E2E81D7E1CDEB3980049E652 /* Bridge.h */,
@@ -288,12 +305,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2E81D871CDEBCBB0049E652 /* drawViewController.swift in Sources */,
+				E2E81D961CDF60150049E652 /* DrawView_ErasingStrokeParts.m in Sources */,
 				E2E81D851CDEB51C0049E652 /* DrawView_Smoothing.m in Sources */,
 				E2E81D8B1CDECE5F0049E652 /* drawCell.swift in Sources */,
+				E2E81D901CDF5ED20049E652 /* Stroke.m in Sources */,
 				E26AA0141CDEA6350088386B /* swiftDrawWrapper.swift in Sources */,
 				E26AA0121CDEA6350088386B /* AppDelegate.swift in Sources */,
 				E2E81D8D1CDED7C40049E652 /* MainMenuController.swift in Sources */,
 				E2E81D891CDECAB30049E652 /* funcs.swift in Sources */,
+				E2E81D951CDF60150049E652 /* DrawView_ErasingStrokes.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
