@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		E26AA0121CDEA6350088386B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26AA0111CDEA6350088386B /* AppDelegate.swift */; };
-		E26AA0141CDEA6350088386B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26AA0131CDEA6350088386B /* ViewController.swift */; };
+		E26AA0141CDEA6350088386B /* swiftDrawWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26AA0131CDEA6350088386B /* swiftDrawWrapper.swift */; };
 		E26AA0171CDEA6350088386B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26AA0151CDEA6350088386B /* Main.storyboard */; };
 		E26AA0191CDEA6350088386B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26AA0181CDEA6350088386B /* Assets.xcassets */; };
 		E26AA01C1CDEA6350088386B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26AA01A1CDEA6350088386B /* LaunchScreen.storyboard */; };
 		E26AA0271CDEA6360088386B /* Vamoh_a_DibujahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26AA0261CDEA6360088386B /* Vamoh_a_DibujahTests.swift */; };
 		E26AA0321CDEA6360088386B /* Vamoh_a_DibujahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26AA0311CDEA6360088386B /* Vamoh_a_DibujahUITests.swift */; };
+		E2E81D791CDEAAA30049E652 /* WILLCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E81D781CDEAAA30049E652 /* WILLCore.framework */; };
+		E2E81D801CDEB4CC0049E652 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E81D7F1CDEB4CC0049E652 /* libc++.tbd */; };
+		E2E81D821CDEB4DD0049E652 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E81D811CDEB4DD0049E652 /* libz.tbd */; };
+		E2E81D851CDEB51C0049E652 /* DrawView_Smoothing.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E81D841CDEB51C0049E652 /* DrawView_Smoothing.m */; };
+		E2E81D871CDEBCBB0049E652 /* drawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E81D861CDEBCBB0049E652 /* drawViewController.swift */; };
+		E2E81D891CDECAB30049E652 /* funcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E81D881CDECAB30049E652 /* funcs.swift */; };
+		E2E81D8B1CDECE5F0049E652 /* drawCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E81D8A1CDECE5F0049E652 /* drawCell.swift */; };
+		E2E81D8D1CDED7C40049E652 /* MainMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E81D8C1CDED7C40049E652 /* MainMenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,7 @@
 /* Begin PBXFileReference section */
 		E26AA00E1CDEA6340088386B /* Vamoh a Dibujah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vamoh a Dibujah.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26AA0111CDEA6350088386B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E26AA0131CDEA6350088386B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E26AA0131CDEA6350088386B /* swiftDrawWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftDrawWrapper.swift; sourceTree = "<group>"; };
 		E26AA0161CDEA6350088386B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E26AA0181CDEA6350088386B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E26AA01B1CDEA6350088386B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,16 @@
 		E26AA02D1CDEA6360088386B /* Vamoh a DibujahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vamoh a DibujahUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26AA0311CDEA6360088386B /* Vamoh_a_DibujahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vamoh_a_DibujahUITests.swift; sourceTree = "<group>"; };
 		E26AA0331CDEA6360088386B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2E81D781CDEAAA30049E652 /* WILLCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WILLCore.framework; sourceTree = "<group>"; };
+		E2E81D7E1CDEB3980049E652 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = SOURCE_ROOT; };
+		E2E81D7F1CDEB4CC0049E652 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E2E81D811CDEB4DD0049E652 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E2E81D831CDEB51C0049E652 /* DrawView_Smoothing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView_Smoothing.h; sourceTree = "<group>"; };
+		E2E81D841CDEB51C0049E652 /* DrawView_Smoothing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView_Smoothing.m; sourceTree = "<group>"; };
+		E2E81D861CDEBCBB0049E652 /* drawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = drawViewController.swift; sourceTree = "<group>"; };
+		E2E81D881CDECAB30049E652 /* funcs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = funcs.swift; sourceTree = "<group>"; };
+		E2E81D8A1CDECE5F0049E652 /* drawCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = drawCell.swift; sourceTree = "<group>"; tabWidth = 5; };
+		E2E81D8C1CDED7C40049E652 /* MainMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E81D821CDEB4DD0049E652 /* libz.tbd in Frameworks */,
+				E2E81D801CDEB4CC0049E652 /* libc++.tbd in Frameworks */,
+				E2E81D791CDEAAA30049E652 /* WILLCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +98,13 @@
 		E26AA0051CDEA6340088386B = {
 			isa = PBXGroup;
 			children = (
+				E2E81D811CDEB4DD0049E652 /* libz.tbd */,
+				E2E81D7F1CDEB4CC0049E652 /* libc++.tbd */,
 				E26AA0101CDEA6350088386B /* Vamoh a Dibujah */,
 				E26AA0251CDEA6360088386B /* Vamoh a DibujahTests */,
 				E26AA0301CDEA6360088386B /* Vamoh a DibujahUITests */,
 				E26AA00F1CDEA6340088386B /* Products */,
+				E2E81D781CDEAAA30049E652 /* WILLCore.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +122,14 @@
 			isa = PBXGroup;
 			children = (
 				E26AA0111CDEA6350088386B /* AppDelegate.swift */,
-				E26AA0131CDEA6350088386B /* ViewController.swift */,
+				E26AA0131CDEA6350088386B /* swiftDrawWrapper.swift */,
+				E2E81D8A1CDECE5F0049E652 /* drawCell.swift */,
+				E2E81D8C1CDED7C40049E652 /* MainMenuController.swift */,
+				E2E81D881CDECAB30049E652 /* funcs.swift */,
+				E2E81D861CDEBCBB0049E652 /* drawViewController.swift */,
+				E2E81D7E1CDEB3980049E652 /* Bridge.h */,
+				E2E81D831CDEB51C0049E652 /* DrawView_Smoothing.h */,
+				E2E81D841CDEB51C0049E652 /* DrawView_Smoothing.m */,
 				E26AA0151CDEA6350088386B /* Main.storyboard */,
 				E26AA0181CDEA6350088386B /* Assets.xcassets */,
 				E26AA01A1CDEA6350088386B /* LaunchScreen.storyboard */,
@@ -256,8 +287,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E26AA0141CDEA6350088386B /* ViewController.swift in Sources */,
+				E2E81D871CDEBCBB0049E652 /* drawViewController.swift in Sources */,
+				E2E81D851CDEB51C0049E652 /* DrawView_Smoothing.m in Sources */,
+				E2E81D8B1CDECE5F0049E652 /* drawCell.swift in Sources */,
+				E26AA0141CDEA6350088386B /* swiftDrawWrapper.swift in Sources */,
 				E26AA0121CDEA6350088386B /* AppDelegate.swift in Sources */,
+				E2E81D8D1CDED7C40049E652 /* MainMenuController.swift in Sources */,
+				E2E81D891CDECAB30049E652 /* funcs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +389,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -391,6 +428,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -399,10 +437,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Vamoh a Dibujah/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mariachi.io.Vamoh-a-Dibujah";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Bridge.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -410,10 +456,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Vamoh a Dibujah/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mariachi.io.Vamoh-a-Dibujah";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Bridge.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -482,6 +535,7 @@
 				E26AA0381CDEA6360088386B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E26AA0391CDEA6360088386B /* Build configuration list for PBXNativeTarget "Vamoh a DibujahTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +544,7 @@
 				E26AA03B1CDEA6360088386B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E26AA03C1CDEA6360088386B /* Build configuration list for PBXNativeTarget "Vamoh a DibujahUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +553,7 @@
 				E26AA03E1CDEA6360088386B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
